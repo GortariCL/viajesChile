@@ -1,6 +1,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #000;
+    color: #FFFFFF;
+}
+
+hr{
+    color:#00A9AF;
 }
 
 /* Navbar */
@@ -19,17 +24,22 @@ body{
 }
 
 /* Quienes Somos */
-#about{
-    color: #FFFFFF;
-}
-
-#about hr{
-    color:#00A9AF;
-}
-
 #about-icon{
     background-color: #00A9AF;
     padding-left: 10rem;
     padding-right: 10rem;
     padding-bottom: .2rem;
 }
+
+/* Destacados */
+.card{
+    background-color: #00A9AF;
+}
+.card img{
+    object-fit: cover;
+}
+
+.card .img-card-2{
+    height: 10.6rem;
+}
+
