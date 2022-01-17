@@ -43,3 +43,14 @@ hr{
     height: 10.6rem;
 }
 
+/* Contacto */
+
+/* Footer */
+#footer{
+    background-color: #00A9AF;
+    padding-top:.2rem;
+}
+
+#footer a{
+    color: #FFFFFF;
+}
