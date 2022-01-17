@@ -1,8 +1,35 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #000;
 }
 
 /* Navbar */
 .navbar{
     background-color: transparent !important;
+}
+
+/* Hero Section */
+#hero-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/* Quienes Somos */
+#about{
+    color: #FFFFFF;
+}
+
+#about hr{
+    color:#00A9AF;
+}
+
+#about-icon{
+    background-color: #00A9AF;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: .2rem;
 }
