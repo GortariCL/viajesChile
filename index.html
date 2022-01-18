@@ -45,7 +45,7 @@
                         <a class="nav-link" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Quienes Somos</a>
+                        <a class="nav-link d-none d-lg-block" href="#about">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#destacados">Destacados</a>
@@ -88,13 +88,14 @@
     <!--Fin Header-->
 
     <!--Inicio Section Quienes Somos-->
-    <section id="about" class="py-5 mb-5">
+    <section id="about" class="py-5 mb-5 d-none d-lg-block ">
         <h2 class="titulo-about text-center pb-2">¿Quiénes somos?</h2>
         <div class="container">
             <hr class="opacity-100">
             <div class="row py-3 text-center">
                 <div class="col-sm-4 col-12 my-2">
-                    <i id="about-icon" class="fas fa-plane fa-2x"></i>
+                    <i id="about-icon" class="fas fa-plane fa-2x" data-bs-toggle="tooltip" 
+                    data-bs-placement="top" title="Viajes"></i>
                     <p class="text-start my-1">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Consectetur voluptatem ratione dolore ipsam assumenda earum impedit.
@@ -113,10 +114,12 @@
                         Ullam nisi quaerat placeat culpa, aliquid temporibus id possimus doloremque a deserunt
                         aut fuga praesentium ratione at corrupti minus excepturi mollitia quibusdam!
                     </p>
-                    <i id="about-icon" class="fas fa-mountain fa-2x"></i>
+                    <i id="about-icon" class="fas fa-mountain fa-2x" data-bs-toggle="tooltip" 
+                    data-bs-placement="bottom" title="Montañismo"></i>
                 </div>
                 <div class="col-sm-4 col-12 my-2">
-                    <i id="about-icon" class="fas fa-route fa-2x"></i>
+                    <i id="about-icon" class="fas fa-route fa-2x" data-bs-toggle="tooltip" 
+                    data-bs-placement="top" title="Ruta"></i>
                     <p class="text-start">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Consectetur voluptatem ratione dolore ipsam assumenda earum impedit.
@@ -130,6 +133,7 @@
         </div>
     </section>
 
+    <!-- Inicio Section Destacados-->
     <section id="destacados" class="py-5 mb-5">
         <h2 class="titulo-about text-center">Destacados</h2>
         <div class="container">
@@ -178,40 +182,50 @@
             </div>
         </div>
     </section>
+    <!--Fin Section Destacados-->
 
+    <!--Inicio Section Contacto-->
     <section id="contacto" class="py-5">
         <h2 class="titulo-about text-center">Contacto</h2>
         <div class="container">
             <hr class="opacity-100">
-            <div data-tf-widget="fDuuo7K4" data-tf-iframe-props="title=Viajes Chile" 
-            data-tf-medium="snippet" style="width:100%;height:400px;"></div>
+            <div data-tf-widget="fDuuo7K4" data-tf-iframe-props="title=Viajes Chile" data-tf-medium="snippet"
+                style="width:100%;height:400px;"></div>
         </div>
     </section>
+    <!--Fin Section Contacto-->
 
     <!--Inicio Footer-->
     <footer id="footer">
         <div class="container text-center align-self-center">
             <div class="row">
                 <div class="col-sm-6 col-12">
-                    <a href="#" class="text-decoration-none"><h3 class="text-uppercase fw-bold">Viajes chile</h3></a>
+                    <a href="#" class="text-decoration-none">
+                        <h3 class="text-uppercase fw-bold">Viajes chile</h3>
+                    </a>
                 </div>
                 <div class="col-sm-6 col-12">
                     <a href="https://www.github.com" target="_blank" class="text-decoration-none">
-                        <i class="fab fa-github-square fa-2x mx-2"></i>
+                        <i class="fab fa-github-square fa-2x mx-2" data-bs-toggle="tooltip" 
+                        data-bs-placement="top" title="Siguenos en GitHub"></i>
                     </a>
                     <a href="https://www.linkedin.com" target="_blank" class="text-decoration-none">
-                        <i class="fab fa-linkedin fa-2x mx-2"></i>
+                        <i class="fab fa-linkedin fa-2x mx-2" data-bs-toggle="tooltip" 
+                        data-bs-placement="top" title="Síguenos en Linkedin"></i>
                     </a>
                     <a href="https://www.twitter.com" target="_blank" class="text-decoration-none">
-                        <i class="fab fa-twitter-square fa-2x mx-2"></i>
+                        <i class="fab fa-twitter-square fa-2x mx-2" data-bs-toggle="tooltip" 
+                        data-bs-placement="top" title="Síguenos en Twitter"></i>
                     </a>
                     <a href="https://www.facebook.com" target="_blank" class="text-decoration-none">
-                        <i class="fab fa-facebook-square fa-2x mx-2"></i>
-                    </a>                  
+                        <i class="fab fa-facebook-square fa-2x mx-2" data-bs-toggle="tooltip" 
+                        data-bs-placement="top" title="Síguenos en Facebook"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
+    <!--Fin Footer-->
 
     <!--Typeform-->
     <script src="//embed.typeform.com/next/embed.js"></script>
