@@ -94,8 +94,8 @@
             <hr class="opacity-100">
             <div class="row py-3 text-center">
                 <div class="col-sm-4 col-12 my-2">
-                    <i id="about-icon" class="fas fa-plane fa-2x" data-bs-toggle="tooltip" 
-                    data-bs-placement="top" title="Viajes"></i>
+                    <i id="about-icon" class="fas fa-plane fa-2x" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Viajes"></i>
                     <p class="text-start my-1">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Consectetur voluptatem ratione dolore ipsam assumenda earum impedit.
@@ -114,12 +114,12 @@
                         Ullam nisi quaerat placeat culpa, aliquid temporibus id possimus doloremque a deserunt
                         aut fuga praesentium ratione at corrupti minus excepturi mollitia quibusdam!
                     </p>
-                    <i id="about-icon" class="fas fa-mountain fa-2x" data-bs-toggle="tooltip" 
-                    data-bs-placement="bottom" title="Montañismo"></i>
+                    <i id="about-icon" class="fas fa-mountain fa-2x" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        title="Montañismo"></i>
                 </div>
                 <div class="col-sm-4 col-12 my-2">
-                    <i id="about-icon" class="fas fa-route fa-2x" data-bs-toggle="tooltip" 
-                    data-bs-placement="top" title="Ruta"></i>
+                    <i id="about-icon" class="fas fa-route fa-2x" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Ruta"></i>
                     <p class="text-start">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Consectetur voluptatem ratione dolore ipsam assumenda earum impedit.
@@ -136,11 +136,11 @@
     <!-- Inicio Section Destacados-->
     <section id="destacados" class="py-5 mb-5">
         <h2 class="titulo-about text-center">Destacados</h2>
-        <div class="container">
+        <div id="cont-dest" class="container">
             <hr class="opacity-100">
             <div class="row">
-                <div class="col-sm-3 col-12 my-2">
-                    <div class="card mx-auto" style="width: 16rem;">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                    <div id="card" class="card mx-auto" style="width: 16rem;">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -149,8 +149,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 col-12 my-2">
-                    <div class="card mx-auto" style="width: 16rem;">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                    <div id="card" class="card mx-auto" style="width: 16rem;">
                         <img src="assets/img/card2.jpg" class="card-img-top img-card-2" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -159,8 +159,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 col-12 my-2">
-                    <div class="card mx-auto" style="width: 16rem;">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                    <div id="card" class="card mx-auto" style="width: 16rem;">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -169,8 +169,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 col-12 my-2">
-                    <div class="card mx-auto" style="width: 16rem;">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                    <div id="card" class="card mx-auto" style="width: 16rem;">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -187,10 +187,15 @@
     <!--Inicio Section Contacto-->
     <section id="contacto" class="py-5">
         <h2 class="titulo-about text-center">Contacto</h2>
-        <div class="container">
-            <hr class="opacity-100">
-            <div data-tf-widget="fDuuo7K4" data-tf-iframe-props="title=Viajes Chile" data-tf-medium="snippet"
-                style="width:100%;height:400px;"></div>
+        <hr class="container opacity-100">
+        <div id="cont-btn" class="container text-center">
+            <p>Hola, gracias por contactarnos</p>
+            <div class="btn-suscripcion">
+                <a href="https://y3d69d4onm1.typeform.com/to/fDuuo7K4" target="_blank">
+                    <button type="button" class="btn btn-primary col-lg-2 col-md-6 col-8 mx-auto"
+                        data-bs-toggle="tooltip" data-bs-placement="right" title="Empezar Ahora">Comenzar</button>
+                </a>
+            </div>
         </div>
     </section>
     <!--Fin Section Contacto-->
@@ -206,20 +211,20 @@
                 </div>
                 <div class="col-sm-6 col-12">
                     <a href="https://www.github.com" target="_blank" class="text-decoration-none">
-                        <i class="fab fa-github-square fa-2x mx-2" data-bs-toggle="tooltip" 
-                        data-bs-placement="top" title="Siguenos en GitHub"></i>
+                        <i class="fab fa-github-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Siguenos en GitHub"></i>
                     </a>
                     <a href="https://www.linkedin.com" target="_blank" class="text-decoration-none">
-                        <i class="fab fa-linkedin fa-2x mx-2" data-bs-toggle="tooltip" 
-                        data-bs-placement="top" title="Síguenos en Linkedin"></i>
+                        <i class="fab fa-linkedin fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Síguenos en Linkedin"></i>
                     </a>
                     <a href="https://www.twitter.com" target="_blank" class="text-decoration-none">
-                        <i class="fab fa-twitter-square fa-2x mx-2" data-bs-toggle="tooltip" 
-                        data-bs-placement="top" title="Síguenos en Twitter"></i>
+                        <i class="fab fa-twitter-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Síguenos en Twitter"></i>
                     </a>
                     <a href="https://www.facebook.com" target="_blank" class="text-decoration-none">
-                        <i class="fab fa-facebook-square fa-2x mx-2" data-bs-toggle="tooltip" 
-                        data-bs-placement="top" title="Síguenos en Facebook"></i>
+                        <i class="fab fa-facebook-square fa-2x mx-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Síguenos en Facebook"></i>
                     </a>
                 </div>
             </div>
@@ -227,8 +232,6 @@
     </footer>
     <!--Fin Footer-->
 
-    <!--Typeform-->
-    <script src="//embed.typeform.com/next/embed.js"></script>
     <!--Popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -239,6 +242,7 @@
         crossorigin="anonymous"></script>
     <!--Script JS-->
     <script src="assets/js/script.js"></script>
+    
 </body>
 
 </html>
